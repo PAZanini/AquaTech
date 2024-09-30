@@ -7,9 +7,22 @@ body, html
 
 h1 
 {
-        margin: 30px;
+        margin: 20px;
         border: 0px;
         font-size: 50px;
+}
+
+.header 
+{
+    margin: 0px;
+    padding: 2%;
+    background-color: black;
+}
+
+.botao_header 
+{
+    display: flex;
+    justify-content: end;
 }
 
 .fundo 
@@ -26,8 +39,10 @@ h1
 
 .principal
 {
+    border-style: hidden;
+    padding: 0px;
     margin: 0px;
-    height: 450px;
+    height: 400px;
     width: 50% ;
     background-color: white;
     border-radius: 20px;
@@ -55,12 +70,15 @@ h1
 
 .botao 
 {
+    font-size: large;
+    height: 10%;
+    width: 15%;
+    margin: 10px;
     font-weight: bold;
     color: white;
     margin: 10px;
     border-style: hidden;
     border-radius: 10px;
-    width: 90px;
     padding: 10px;
     background-color: magenta
 }
